@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 30px auto;
+    border: 2px black solid;
+    object-fit:cover;
+
+    
+
+}
+
+
+
+.one,.two,.three,.four{
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    height: 400px;
+    background-color:white;
+    margin: 20px;
+}
+
+
+.first-row{
+    display: flex;
+    margin: 20px;
+}
+
+
+
+.second-row{
+    display: flex;
+    margin: 20px;
+}
+
+.prod-container{
+    width: 800px;
+    height: 800px;
+    margin: 100px auto;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: rgb(41, 182, 41);
+    color: white;
+    border: none;
+}
+
+h4,h3{
+    padding: 10px;
+    text-align: center;
+}
+
+h4{
+    color: rgb(16, 122, 184);
+}
